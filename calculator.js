@@ -903,7 +903,7 @@ phoneInput.addEventListener('input', function() {
 // Logo and footer links
 logoLink.addEventListener('click', function(e) {
     e.preventDefault();
-    window.open('https://qg-digital.github.io/instuticional/', '_blank');
+    window.open('https://qg-digital.github.io/institucional/', '_blank');
 });
 
 footerContact.addEventListener('click', function(e) {
