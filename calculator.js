@@ -888,7 +888,7 @@ whatsappForm.addEventListener('submit', async function(e) {
     const location = await getLocationFromIP();
     let whatsappMsg = `Olá eu sou ${name} e gostaria de saber mais sobre o aquecimento de piscinas.\n\n`;
    
-    window.open(`https://wa.me/5543996349824?text=${encodeURIComponent(whatsappMsg)}`, '_blank');
+    window.open(`https://wa.me/554396975141?text=${encodeURIComponent(whatsappMsg)}`, '_blank');
     
     this.reset();
     toggleChatPanel();
@@ -908,7 +908,7 @@ logoLink.addEventListener('click', function(e) {
 
 footerContact.addEventListener('click', function(e) {
     e.preventDefault();
-    window.open('https://wa.me/5543996349824?text=Olá gostaria de falar com o desenvolvedor', '_blank');
+    window.open('https://wa.me/554396975141?text=Olá gostaria de falar com o desenvolvedor', '_blank');
 });
 
 // Add page load animations
